@@ -67,16 +67,113 @@ img {
     color:#ffff;
 }
 
+/* Стиль "Окна Хаус"*/
+
+.content{
+    background: url(./picture/Group\ 16.png) no-repeat;
+    width: 100%;
+    height: 562px;
+    margin-top: 37%;
+}
+
+.window__title{
+    display: flex;
+    margin-top: -38%;
+    margin-left: 12%;
+    color:#EF7F04;
+    font-size: 2rem;
+}
+
+.window_paragraf{
+    margin-top: 6%;
+    margin-left: -10%;
+    color: #FFFFFF;
+}
+
+.main__quality-haus{
+    display: flex;
+    gap: 30px;
+    margin-left: 10%;
+}
+
+
+.quality_window-paragraf{
+    color: #FFFFFF;
+    margin-left: 9%;
+}
+
+
+.quality__hand-paragraf{
+    color: #FFFFFF;
+}
+
+
+.quality__service-paragraf{
+    color: #FFFFFF;
+    margin-top: -12%;
+}
+
+.form{
+    width: 350px;
+    background-color:#ffffff;
+    margin-left: 55%;
+    margin-top: -27%;
+    padding: 1px 50px 1px 30px;
+    border-radius: 10px;
+    
+}
+
+.form__title{
+    font-weight: 700;
+    font-size: 18px;
+    color: #2F2F51;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.img__lineika {
+    margin-left: -33%;
+    margin-bottom: -17%;
+}
+
+.input__introduce{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px ;
+    background: #E2E2E2;
+    border-radius: 3px;
+    border:none;
+}
+
+.input__introduce::placeholder{
+    color: #424268;
+}
+
+
+
+.form_submit{
+    display: block;
+    margin: 0 auto;
+    margin-top: 7%;
+    background-color: #EF7F04;
+    border-radius: 3px;
+    border: 0;
+    width: calc(199 / 1366 * 100vw);
+    height: calc(54 / 1366 * 100vw);
+    color:#ffff;
+    
+}
+
+
+
 /* Стиль "Наши услуги"*/
 
-/* .main{
-    background-color: #eceaea;
-
-} */
 
 .main__services{
     margin-left: 43%;
     color:#2F2F51;
+    margin-top: 7%;
 }
 
 .main__countainer{
