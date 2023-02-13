@@ -1,267 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="header">
+  <header class="header">
     <div class="header__img">
-        <img class="img" src="./picture/1 1.png">
+      <img class="img" src="./picture/1 1.png">
     </div>
-    <div class="header__links">
-        <a href="#">Услуги</a>
-        <a href="#">Продукция</a>
-        <a href="#">О компании</a>
-        <a href="#">Портфолио</a>
-        <a href="#">Вопрос-ответ</a>
-        <a href="#">Контакты</a>
-    </div>
-    <div class="header__buttons">
-        <button class="button__orange">
-        <img src="./picture/Слой_x0020_1.png" alt="">
-         Заявка на замер
-        </button>
-        <button class="button__violet">
-        <img src="./picture/Слой_x0020_1.png" alt="">
-        Заказать расчет
-        </button>
-    </div>
-</header>
+    <div class="header__links header-links">
+      <a class="header-links__item" href="#">Услуги</a>
+      <a class="header-links__item" href="#">Продукция</a>
+      <a class="header-links__item" href="#">О компании</a>
+      <a class="header-links__item" href="#">Портфолио</a>
+      <a class="header-links__item" href="#">Вопрос-ответ</a>
+      <a class="header-links__item" href="#">Контакты</a>
+    </div>    
+    <div class="header__buttons header-buttons">
+      <button class="header-buttons__item header-buttons__item_primary ">
+        <img class="header-buttons__image" src="./picture/Слой_x0020_1.png" alt="картинка">
+        Заявка на замер
+      </button>
 
-    <!--Верстка "Окна Хаус"-->
+      <button class="header-buttons__item header-buttons__item_secondary">
+        <img class="header-buttons__image" src="./picture/Слой_x0020_1.png" alt="картинка">
+        Заказать расчет
+      </button>
+    </div>
+  </header>
     
-<main>
+  <main>
     <div class="content">
-    <div class="window__title">
-        <h6>Окна Хаус - </h6>
-    <div class="window_paragraf">
-        <p> Профессиональный подход <br> к остеклению </p>
-    </div>
-    </div>
-    <div class="main__quality-haus">
-    <div class="quality__window">
-    <div class="quality__window-img">
-        <img src="./picture/Слой_x0020_1 (2) window.png">
-    </div>
-    <div class="quality_window-paragraf">
-        <p> Современные окна <br>и балконные конструкции <br>по доступным ценам</p>
-    </div>
-    </div>
-    <div class="quality__hand">
-    <div class="quality__hand-img">
-        <img src="./picture/Слой_x0020_1 hend.png">
-    </div>
-    <div class="quality__hand-paragraf">
-        <p> Квалифицированный <br> подход к решению задач<br> любой сложности </p>
-    </div>
-    </div>
-    <div class="quaity__service">   
-     <div class="quality__service-img">
-        <img src="./picture/служба качества.png">
-    </div>
-    <div class="quality__service-paragraf">
-        <p> Гарантия <br> высочайшего качества <br> нашей продукции</p>
-    </div>
-    </div>
-    </div>       
-    <form class="form">
-    <h6 class="form__title"> Вызвать замершика на дом</h6>
+      <div class="window__title">
+        <h6>
+            Окна Хаус -
+        </h6>
+        <div class="window_paragraf">
+          <p>
+            Профессиональный подход к остеклению
+          </p>
+        </div>
+      </div>
+      <div class="main__quality-haus">
+        <div class="quality__window">
+          <div class="quality__window-img">
+            <img class="quality__window-img" src="./picture/Слой_x0020_1 (2) window.png">
+          </div>
+          <div class="quality_window-paragraf">
+            <p>
+              Современные окна и балконные конструкции по доступным ценам
+            </p>
+          </div>
+        </div>
+        <div class="quality__hand">
+          <div class="quality__hand-img">
+            <img class="quality__hand-img" src="./picture/Слой_x0020_1 hend.png">
+          </div>
+            <div class="quality__hand-paragraf">
+              <p>
+                Квалифицированный подход к решению задач любой сложности
+              </p>
+            </div>
+        </div>
+        <div class="quaity__service">   
+          <div class="quality__service-img">
+            <img class="quality__service-img" src="./picture/служба качества.png">
+          </div>
+          <div class="quality__service-paragraf">
+            <p>
+              Гарантия высочайшего качества нашей продукции
+            </p>
+          </div>
+        </div>
+      </div>            
+      <form class="form">
+        <h6 class="form__title"> Вызвать замершика на дом</h6>
         <input type="text" class="input__introduce"
-        placeholder="Представтесь, пожалуйста">
+        placeholder="Представьтесь, пожалуйста">
         <input type="text" class="input__introduce"
         placeholder="Номер телефона">
         <input type="text" class="input__introduce"
-        placeholder="E-mail">
-    <div class="form__input-checkbox">
-        <label for="form__text">
-            <input type="checkbox" class="check__box">Согласен на обработку персональных данных в соответствии <a href="">с политикой конфиденциальности</a>
-        </label>
-    </div>
-    <button class="form_submit">Отправить заявку</button>
+        placeholder="E-mail">            
+        <div class="form__input-checkbox">
+          <label for="form__text" class="form-text">
+            <input type="checkbox" class="check__box">
+            Согласен на обработку персональных данных 
+            в соответствии 
+            <a href="">
+              с политикой конфиденциальности
+            </a>
+          </label>
+        </div>
+        <button class="form_submit">Отправить заявку</button>
         <img class="img__lineika" src="./picture/линейка.png">
-    </form>
+      </form>
     </div>
-    
-
-    <!--Верстка "Наши услуги"-->
-
+<!--Верстка "Наши услуги"-->
     <div class="main__services">
-        <h1> Наши услуги</h1>
+      <h1>
+        Наши услуги
+      </h1>
     </div>
     <div class="main__countainer">
-    <div class="main__container-picture">
+      <div class="main__container-picture">
         <img class="main__container-picture-img" src="./picture/Group 19.png">   
-    </div>
-    <div class="main__windows">
-    <div class="main__windows-img">
-        <img src="./picture/Слой_x0020_1 (2).png">
-    </div>
-    <div class="main__windows-title">
-        <h2> Установка пластиковых окон</h2>
-    <div class="main__windows-paragraf">
-        <p>Устанавливаем пластиковые окна Rehau от проверенного производителя с гарантией качества</p>
-    </div>
-    </div>
-    </div>
-    <div class="main__container-picture">
+      </div>
+      <div class="main__windows">
+        <div class="main__windows-img">
+          <img src="./picture/Слой_x0020_1 (2).png">
+        </div>
+        <div class="main__windows-title">
+          <h2>
+            Установка пластиковых окон
+          </h2>
+          <div class="main__windows-paragraf">
+            <p>
+              Устанавливаем пластиковые окна Rehau от проверенного производителя с гарантией качества
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="main__container-picture">
         <img class="main__container-picture-img" src="./picture/Group 20.png">
-    </div>
-    <div class="main__balcony">
-    <div class="main__balcony-img">
-        <img src="./picture/Слой_x0020_1 (2)44.png">
-    </div>
-    <div class="main__balcony-title">
-        <h2>Остекление балконов и лоджий</h2>
-    </div>
-    <div class="main__balcony-paragraf">
-        <p>Занимаемся остеклением и отделкой балконов и лоджий. Теплое и холодное остекление,изготовление выносов и крыш.Беремся за сложные объекты</p>
-    </div>
-    </div>
-    <div class="main__container-picture">
+      </div>
+      <div class="main__balcony">
+        <div class="main__balcony-img">
+          <img src="./picture/Слой_x0020_1 (2)44.png">
+        </div>
+        <div class="main__balcony-title">
+          <h2>
+            Остекление балконов и лоджий
+          </h2>
+        </div>
+        <div class="main__balcony-paragraf">
+          <p>
+            Занимаемся остеклением и отделкой балконов и лоджий. Теплое и холодное остекление, изготовление выносов и крыш.Беремся за сложные объекты
+          </p>
+        </div>
+      </div>
+      <div class="main__container-picture">
         <img class="main__container-picture-img" src="./picture/Group 18.png">
-    </div>
-    <div class="main__cottage">
-    <div class="main__cottage-img">
-        <img src="./picture/Слой_x0020_12.png">
-    </div>
-    <div class="main__cottage-title">
-        <h2> Остекление котеджей и дач</h2>
-    </div>
-    <div class="main__cottage-paragraf">
-        <p>Остекление и отделка под ключ:от коттеджей и дач до террас и беседок. Выделяем личного технолога под каждый объект</p>
-    </div> 
-    </div>
-    <div class="main__container-picture">
+      </div>
+      <div class="main__cottage">
+        <div class="main__cottage-img">
+          <img src="./picture/Слой_x0020_12.png">
+        </div>
+        <div class="main__cottage-title">
+          <h2>
+            Остекление котеджей и дач
+          </h2>
+        </div>
+        <div class="main__cottage-paragraf">
+          <p>
+            Остекление и отделка под ключ: от коттеджей и дач до террас и беседок. Выделяем личного технолога под каждый объект
+          </p>
+        </div> 
+      </div>
+      <div class="main__container-picture">
         <img class="main__container-picture-img" src="./picture/Group 21.png">
-    </div>
-    <div class="main__corporate">
-    <div class="main__corporate-img">
-        <img src="./picture/Слой_x0020_1 (3).png">
-    </div>
-    <div class="main__corporate-title">
-        <h2> Остекление корпоративных обьектов</h2>
-    </div>
-    <div class="main__corporate-paragraf">
-        <p> Реализуем сложные проекты по остеклению торговых центров, ресторанов, производственных помещений  и офисов </p>
-    </div>  
-    </div>
+      </div>
+      <div class="main__corporate">
+        <div class="main__corporate-img">
+          <img src="./picture/Слой_x0020_1 (3).png">
+        </div>
+        <div class="main__corporate-title">
+          <h2>
+            Остекление корпоративных обьектов
+          </h2>
+        </div>
+        <div class="main__corporate-paragraf">
+          <p>
+            Реализуем сложные проекты по остеклению торговых центров, ресторанов, производственных помещений и офисов
+          </p>
+        </div>  
+      </div>
     </div> 
-        
-        <!--Верстка "О компании"-->
+    
+    <!--Верстка "О компании"-->
 
     <div class="main__header-kompani">
-        <h3>О компании</h3>
+      <h3>
+        О компании
+      </h3>
     </div>
     <div class="main__links">
-        <a href="#"> Описание </a>
-        <a href="#"> Как мы работаем </a>
-        <a href="#"> Отзывы </a>
-        <a href="#"> Сертфикаты </a>
+      <a href="#"> Описание </a>
+      <a href="#"> Как мы работаем </a>
+      <a href="#"> Отзывы </a>
+      <a href="#"> Сертфикаты </a>
     </div>
     <div class="main__pictures"> 
-    <div class="main__background">
+      <div class="main__background">
         <img src="./picture/Rectangle 95.png">
-    </div>
-    <div class="main__window-house">
+      </div>
+      <div class="main__window-house">
         <img src="./picture/111.png">
-    </div>
-    <div class="main__text">
-        <p> Мы помогаем клиентам подбирать решения,учитывая пожежелания к характеристикам окна и его стоимости. Окно - это объект, которым Вы будете пользоваться много лет, поэтому для нас очень важно, чтобы Вы сделали правильный выбор.</p>
-    </div>
-    <div class="main__men-window">
+      </div>
+      <div class="main__text">
+        <p>
+          Мы помогаем клиентам подбирать решения,учитывая пожежелания к характеристикам окна и его стоимости.Окно - это объект, которым Вы будете пользоваться много лет, поэтому для нас очень важно, чтобы Вы сделали правильный выбор.
+        </p>
+      </div>
+      <div class="main__men-window">
         <img src="./picture/Rectangle 36.png">
-    </div>
+      </div>
     </div>
     <div class="main__quality">
-    <div class="main__professionalism">
-    <div class="main__professionalism-img">
-        <img src="./picture/проф.png">
-    </div>
-    <div class="main__professionalism-title">
-        <h4>ПРОФЕССИОНАЛИЗМ</h4>
-    </div>
-    <div class="main__professionalism-paragraf">
-        <p> Бригада профессиональных мастеров по монтажу и обслуживанию</p>
-    </div>
-    </div>
-    <div class="main__pricing">
-    <div class="main__pricing-img">
-        <img src="./picture/ценообразование.png">
-    </div>
-    <div class="main__pricing-title">
-        <h4>ЦЕНООБРАЗОВАНИЕ</h4>
-    </div>
-    <div class="main__pricing-paragraf">
-        <p>Лучшие цены на рынке<br>пластиковых окон</p>
-    </div>
-    </div>
-    <div class="main__mobility">
-    <div class="main__mobility-img">
-        <img src="./picture/договор.png">
-    </div>
-    <div class="main__mobility-title">
-        <h4> МОБИЛЬНОСТЬ</h4>
-    </div>
-    <div class="main__mobility-paragraf">
-        <p> Заключение договора<br>на дому</p>
-    </div>
-    </div>
-    <div class="main__loyalty">
-    <div class="main__loyalty-img">
-        <img src="./picture/лояльность.png">
-    </div>
-    <div class="main__loyalty-title">
-        <h4> ЛОЯЛЬНОСТЬ</h4>
-    </div>
-    <div class="main__loyalty-paragraf">
-        <p>99% клиенстов рекомендуют<br> нас своим друзьям</p>
-    </div>
-    </div>
-    <div class="main__speed">
-    <div class="main__speed-img">
-        <img src="./picture/скорость.png">
-    </div>
-    <div class="main__speed-title">
-        <h4> СКОРОСТЬ</h4>
-    </div>
-    <div class="main__speed-paragraf">
-        <p>Короткие сроки<br>установки изделий</p>
-    </div>
-    </div>
-    <div class="main__service">
-    <div class="main__service-img">
-        <img src="./picture/служба качества.png">
-    </div>
-    <div class="main__service-title">
-        <h4>СЛУЖБА КАЧЕСТВА</h4>
-    </div>
-    <div class="main__service-paragraf">
-        <p>Безупречное качество<br> и контроля изделий ПВХ</p>
-    </div>
-    </div>
+      <div class="main__professionalism">
+        <div class="main__professionalism-img">
+          <img src="./picture/проф.png">
+        </div>
+        <div class="main__professionalism-title">
+          <h4>
+            ПРОФЕССИОНАЛИЗМ
+          </h4>
+        </div>
+        <div class="main__professionalism-paragraf">
+          <p>
+            Бригада профессиональных мастеров по монтажу и обслуживанию
+          </p>
+        </div>
+      </div>
+      <div class="main__pricing">
+        <div class="main__pricing-img">
+          <img src="./picture/ценообразование.png">
+        </div>
+        <div class="main__pricing-title">
+          <h4>ЦЕНООБРАЗОВАНИЕ</h4>
+        </div>
+        <div class="main__pricing-paragraf">
+          <p>
+            Лучшие цены на рынке пластиковых окон
+          </p>
+        </div>
+      </div>
+      <div class="main__mobility">
+        <div class="main__mobility-img">
+          <img src="./picture/договор.png">
+        </div>
+        <div class="main__mobility-title">
+          <h4>
+            МОБИЛЬНОСТЬ
+          </h4>
+        </div>
+        <div class="main__mobility-paragraf">
+          <p>
+            Заключение договора
+            на дому
+          </p>
+        </div>
+      </div>
+      <div class="main__loyalty">
+        <div class="main__loyalty-img">
+          <img src="./picture/лояльность.png">
+        </div>
+        <div class="main__loyalty-title">
+          <h4>
+            ЛОЯЛЬНОСТЬ
+          </h4>
+        </div>
+        <div class="main__loyalty-paragraf">
+          <p>
+            99% клиенстов рекомендуют  нас своим друзьям
+          </p>
+        </div>
+      </div>
+      <div class="main__speed">
+        <div class="main__speed-img">
+          <img src="./picture/скорость.png">
+        </div>
+        <div class="main__speed-title">
+          <h4>
+            СКОРОСТЬ
+          </h4>
+        </div>
+        <div class="main__speed-paragraf">
+          <p>
+            Короткие сроки установки изделий
+          </p>
+        </div>
+      </div>
+      <div class="main__service">
+        <div class="main__service-img">
+          <img src="./picture/служба качества.png">
+        </div>
+        <div class="main__service-title">
+          <h4>
+            СЛУЖБА КАЧЕСТВА
+          </h4>
+        </div>
+        <div class="main__service-paragraf">
+          <p>
+            Безупречное качество и контроля изделий ПВХ
+          </p>
+        </div>
+      </div>
     </div>
     <div>
-        <button class="button__request">
-            <img src="./picture/Слой_x0020_1.png" alt="">
-                Оформить заявку на замер
-        </button>
+      <button class="button__request">
+        <img src="./picture/Слой_x0020_1.png" alt="">
+        Оформить заявку на замер
+      </button>
     </div>
 
-        <!--Портфолио-->
-
+    <!--Портфолио-->
     <div class="main__portfolio">
-        <h5>Портфолио</h5>
-    <div class="main__picture-window">
+      <h5>
+        Портфолио
+      </h5>
+      <div class="main__picture-window">
         <img src="./picture/Rectangle 68.png">
         <img src="./picture/Rectangle 69.png">
         <img src="./picture/Rectangle 70.png">
         <img src="./picture/Rectangle 73.png">
-    </div>   
-    </div>          
-</main>    
+      </div> 
+    </div>
+
+    <!--Вопрос-ответ-->
+    
+    <div class="main__question">
+      <div class="main__title-question"><h6>Вопрос-ответ</h6></div>
+        <select class="select__quastion">
+          <option class="main__qiestion-item">Сколько по времени занимает изготовление пластиковых окон?</option>
+          <option> wadadawd</option>
+        </select>
+        <select class="select__buy">
+          <option class="main__qiestion-item">Какие существуют способы оплаты?</option>
+          <option> wadadawd</option>
+        </select>
+        <select class="select__sample">
+          <option class="main__select-sample">Где я могу посмотреть образцы?</option>
+          <option> wadadawd</option>
+        </select>
+        <select class="select__measurer">
+          <option class="main__select-measurer">Зачем вызывать замерщика? Я могу дать замеры</option>
+          <option> wadadawd</option>
+        </select>
+        <select class="select__balcony">
+          <option class="main__select-balcony">Хотелось бы отделать балкон.Поможете?</option>
+          <option> wadadawd</option>
+        </select>
+        <select class="select__loader">
+          <option class="main__select-loader">Мне надо нанимать грузчиков для подъема?</option>
+          <option> Нет, команда мастеров все сами аккуратно доставят и внесут.</option>
+        </select>
+      </div>
+  </main>    
 </body>
 </html>
