@@ -12,20 +12,34 @@ body {
 
 .header__img {
     margin-left: 8%;
+    width: calc(90 / 1368 * 100vw);
+    height: calc(63 / 1368 * 100vw);
+}
+
+.img{
+    width: 100%;
+    height: 100%;
 }
 
 .header__links {
     margin-top: 2%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin-left: 3%;
+    margin-left: 1%;
+    width: calc(650 / 1368 * 100vw);
+    height: calc(19 / 1368 * 100vw);
+}
+
+.header-links__item {
+    margin-left: 4%;
+    width: calc(97 / 1368 * 100vw);
+    height: calc(19 / 1368 * 100vw);
+    font-size: calc(16 / 1368 * 100vw);
 }
 
 a{
     text-decoration: none;
     color:black;
     font-weight: 500;
+
 }
 
 .header__buttons{
@@ -34,15 +48,15 @@ a{
     margin-left: 2%;
 }
 
-.button__orange{
+.header-buttons__item{
     background-color:#EF7F04;
     align-items: center;
-    border-radius:  3px;
+    border-radius: calc(3 / 1368 * 100vw);
     border: 0;
-    font-size: 13px;
+    font-size: calc(13 / 1368 * 100vw);
     margin-left: 2%;
-    width: calc(169 / 1366 * 100vw);
-    height: calc(40 / 1366 * 100vw);
+    width: calc(169 / 1368 * 100vw);
+    height: calc(40 / 1368 * 100vw);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,17 +68,13 @@ img {
     margin-left: 2%;
 }
 
-.button__violet{
+.header-buttons__item_secondary{
     background-color:#3B3A63;
-    margin-left: 2%;
-    border-radius:  3px;
-    border: 0;
-    width: calc(169 / 1366 * 100vw);
-    height: calc(40 / 1366 * 100vw);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color:#ffff;
+}
+
+.header-buttons__image{
+    width: calc(20 / 1368 * 100vw);
+    height: calc(18 / 1368 * 100vw);
 }
 
 /* Стиль "Окна Хаус"*/
@@ -72,85 +82,122 @@ img {
 .content{
     background: url(./picture/Group\ 16.png) no-repeat;
     width: 100%;
-    height: 562px;
+    height: calc(562 / 1368 * 100vw);
     margin-top: 37%;
 }
 
 .window__title{
     display: flex;
     margin-top: -38%;
-    margin-left: 12%;
+    margin-left: 10%;
     color:#EF7F04;
-    font-size: 2rem;
+    font-size: calc(36 / 1368 * 100vw)
 }
 
 .window_paragraf{
     margin-top: 6%;
-    margin-left: -10%;
+    margin-left: -11%;
     color: #FFFFFF;
+    font-size: calc(36 / 1368 * 100vw)
 }
 
 .main__quality-haus{
     display: flex;
-    gap: 30px;
-    margin-left: 10%;
+    gap: 100px;
+    margin-left: 9%;
 }
 
+.quality__window-img{
+    width: calc(92 / 1368 * 100vw);
+    height: calc(79 / 1368 * 100vw);
+}
 
 .quality_window-paragraf{
     color: #FFFFFF;
     margin-left: 9%;
+    width: calc(100 / 1368 * 100vw);
+    font-size: calc(14 / 1368 * 100vw);
 }
 
+.quality__hand-img{
+    width: calc(69 / 1368 * 100vw);
+    height: calc(78 / 1368 * 100vw);
+}
 
 .quality__hand-paragraf{
     color: #FFFFFF;
+    width: calc(100 / 1368 * 100vw);
+    font-size: calc(14 / 1368 * 100vw);
 }
 
+.quality__service-img{
+    width: calc(73 / 1368 * 100vw);
+    height: calc(82 / 1368 * 100vw);
+}
 
 .quality__service-paragraf{
     color: #FFFFFF;
     margin-top: -12%;
+    width: calc(100 / 1368 * 100vw);
+    font-size: calc(14 / 1368 * 100vw);
 }
 
 .form{
-    width: 350px;
+    width: calc(406 / 1368 * 100vw);
+    height: calc(428 / 1368 * 100vw);
     background-color:#ffffff;
-    margin-left: 55%;
-    margin-top: -27%;
+    margin-left: 60%;
+    margin-top: -25%;
     padding: 1px 50px 1px 30px;
-    border-radius: 10px;
-    
+    border-radius: calc(10 / 1368 * 100vw);
 }
 
 .form__title{
     font-weight: 700;
-    font-size: 18px;
+    font-size: calc(18 / 1368 * 100vw);
     color: #2F2F51;
     margin-bottom: 5%;
     text-align: center;
 }
 
 .img__lineika {
-    margin-left: -33%;
-    margin-bottom: -17%;
+    margin-left: -25%;
+    margin-top: -5%;
+    width: calc(627 / 1368 * 100vw);
+    height: calc(139 / 1368 * 100vw);
 }
 
 .input__introduce{
-    display: block;
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 12px ;
+    width: calc(323 / 1368 * 100vw);
+    height: calc(40 / 1368 * 100vw);
+    margin-bottom: 3%;
     background: #E2E2E2;
-    border-radius: 3px;
+    border-radius: calc(3 / 1368 * 100vw);
     border:none;
+    padding: calc(5 / 1368 * 100vw);
+    margin-left: 10%;
 }
 
 .input__introduce::placeholder{
     color: #424268;
 }
 
+.form__input-checkbox{
+    width: calc(287 / 1368 * 100vw);
+    height: calc(48 / 1368 * 100vw);
+    margin-left: 10%;
+}
 
+.form__text{
+    width: calc(288 / 1368 * 100vw);
+    height: calc(48 / 1368 * 100vw);
+    font-size: calc(12 / 1368 * 100vw);
+}
+
+.check__box{
+    width: calc(25 / 1368 * 100vw);
+    height: calc(25 / 1368 * 100vw);
+}
 
 .form_submit{
     display: block;
@@ -159,10 +206,10 @@ img {
     background-color: #EF7F04;
     border-radius: 3px;
     border: 0;
-    width: calc(199 / 1366 * 100vw);
-    height: calc(54 / 1366 * 100vw);
+    width: calc(190 / 1368 * 100vw);
+    height: calc(54 / 1368 * 100vw);
     color:#ffff;
-    
+    font-size: calc(14 / 1368 * 100vw);
 }
 
 
@@ -372,7 +419,7 @@ img {
 
 .main__speed-title{
     margin-top: -44%;
-    margin-left: 46%;
+    margin-left: 47%;
     color:#2F2F51;
 }
 
@@ -461,4 +508,91 @@ h5 {
     margin-top: 10%;
     display: inline-flex;
     margin-left: -40%;
+}
+
+
+/* Вопрос- ответ*/
+
+.main__question{
+    background-color: #EF7F1A;
+    width: calc(1200/1360*100vw);
+    height: calc(910/1360*100vw);
+    margin-left: 5%;
+    display: flex;
+}
+
+.main__title-question {
+    color: #FFFFFF;
+    margin-left: 45%;
+    font-size: 3rem;
+    margin-top: -5%;
+}
+
+.select__quastion {
+    width: 998px;
+    height: 82px;
+    margin-top: 11%;
+    margin-left: -45%;
+    color: #2F2F51;
+}
+
+.select__buy{
+    width: 998px;
+    height: 82px;
+    margin-top: 20%;
+    margin-left: -70%;
+}
+
+.select__sample{
+    width: 998px;
+    height: 82px;
+    margin-top: 30%;
+    margin-left: -70%;
+}
+
+.select__measurer{
+    width: 998px;
+    height: 82px;
+    margin-top: 40%;
+    margin-left: -70%;
+}
+
+.select__balcony{
+    width: 998px;
+    height: 82px;
+    margin-top: 50%;
+    margin-left: -63%;
+}
+
+.select__loader{
+    width: 998px;
+    height: 82px;
+    margin-top: 60%;
+    margin-left: -60%;
+}
+
+
+
+option{
+    color: #EF7F04;
+}
+
+
+@media screen and (max-width:768px) {
+    .header__buttons{
+        margin-left: 30%;
+    }
+
+    .header-buttons__item{
+        width: calc(110 / 768 * 100vw);
+        height: calc(30 / 768 * 100vw);
+    }
+
+    .header__links{
+        display: none;
+    }
+
+    .form{
+        display: none;
+    }
 }
