@@ -378,37 +378,47 @@ img {
 .main__text{
     display: inline-flex;
     position: absolute;
-    margin-top: 20%;
+    margin-top: 19%;
     white-space: pre-line;
-    margin-left: 31%;
+    margin-left: 30%;
+    width: calc(300 / 1368 * 100vw);
+    height: calc(100 / 1368 * 100vw);
 }
 
 .main__quality{
     display: flex;
-    gap: 140px;
+    gap: 70px;
     flex-wrap: wrap;
     padding: 20px 50px;
-    margin-left: 13%;
-    margin-top: 5%;
+    margin-left: 10%;
+    margin-top: 4%;
 }
 
 .main__professionalism-title {
-    margin-top: -53%;
-    margin-left: 54%;
+    margin-top: -54%;
+    margin-left: 55%;
     color:#2F2F51;
     
 }
 
 .main__pricing-title{
     margin-top: -45%;
-    margin-left: 54%;
+    margin-left: 90%;
     color:#2F2F51;
+}
+
+.main__pricing-img{
+    margin-left: 40%;
 }
 
 .main__mobility-title{
     margin-top: -50%;
-    margin-left: 42%;
+    margin-left: 91%;
     color:#2F2F51;
+}
+
+.main__mobility-img{
+    margin-left: 59%;
 }
 
 .main__loyalty-title{
@@ -419,28 +429,41 @@ img {
 
 .main__speed-title{
     margin-top: -44%;
-    margin-left: 47%;
+    margin-left: 80%;
     color:#2F2F51;
+}
+
+.main__speed-img{
+    margin-left: 40%;
 }
 
 .main__service-title{
     margin-top: -44%;
-    margin-left: 37%;
+    margin-left: 80%;
     color:#2F2F51;
+    width: calc(200 / 1368 * 100vw);
+    height: calc(50 / 1368 * 100vw);
+}
+
+.main__service-img{
+    margin-left: 52%;
 }
 
 .main__professionalism-paragraf{
-    margin-left: 54%;
+    margin-left: 55%;
+    margin-top: 10%;
     width: 200px;
+    width: calc(200 / 1368 * 100vw);
+    height: calc(50 / 1368 * 100vw);
 }
 
 .main__pricing-paragraf{
-    margin-left: 54%;
+    margin-left: 90%;
     width: 240px;
 }
 
 .main__mobility-paragraf{
-    margin-left: 42%;
+    margin-left: 92%;
     width: 240px;
 }
 
@@ -450,7 +473,7 @@ img {
 }
 
 .main__speed-paragraf{
-    margin-left: 46%;
+    margin-left: 79%;
     width: 250px;
 }
 
@@ -463,7 +486,8 @@ img {
 }
 
 .main__service-paragraf{
-    margin-left: 37%;
+    margin-left: 80%;
+    margin-top: -15%;
     width: 280px;
 }
 
@@ -498,7 +522,7 @@ img {
 
 h5 {
     font-size: calc(24/1360 * 100vw);
-    margin-left: 45%;
+    margin-left: 430%;
     color: #2F2F51;
 }
 
@@ -507,7 +531,7 @@ h5 {
     height: calc(215/1360*100vw);
     margin-top: 10%;
     display: inline-flex;
-    margin-left: -40%;
+    
 }
 
 
@@ -571,8 +595,6 @@ h5 {
     margin-left: -60%;
 }
 
-
-
 option{
     color: #EF7F04;
 }
@@ -593,6 +615,279 @@ option{
     }
 
     .form{
+        display: none;
+    }
+
+    .main__services{
+        width: calc(200 / 768 * 100vw);
+        height: calc(28 / 768 * 100vw);
+        margin-bottom: 7%;
+        margin-left: 28%;
+    }
+
+    .main__countainer{
+        width: calc(595 / 768 * 100vw);
+        height: calc(268 / 768 *100vw);
+        margin-left: 10%;
+    }
+
+    .main__windows-img{
+        width: calc(10 / 768 * 100vw);
+        height: calc(4 / 768 * 100vw);
+        margin-top: -10%;
+    }
+
+    .installation__title{
+        width: calc(150 / 768 * 100vw);
+        height: calc(40 / 768 * 100vw);
+        margin-left: 50%;
+        margin-top: -24%;
+        font-size: calc(14 / 768 * 100vw);
+    }
+
+    .main__windows-paragraf{
+        width: calc(303 / 768 * 100vw);
+        height: calc(75 / 768 * 100vw);
+        margin-top: 16%;
+        margin-left: -18%;
+        font-size: calc(14 / 768 * 100vw);
+    }
+
+    .main__balcony-img{
+        width: calc(10 / 768 * 100vw);
+        height: calc(10 / 768 * 100vw);
+        margin-top: 104%;
+        margin-left: -276%;
+    }
+
+    .balcony__title{
+        width: calc(120 / 768 * 100vw);
+        height: calc(20 / 768 * 100vw);
+        margin-left: 67%;
+        margin-top: 113%;
+        font-size: calc(14 / 768 * 100vw);
+    }
+
+    .main__balcony-paragraf{
+        width: calc(303 / 768 * 100vw);
+        height: calc(75 / 768 * 100vw);
+        margin-top: 153%;
+        margin-left: -283%;
+        font-size: calc(13 / 768 * 100vw);
+    }
+
+    .main__cottage-img{
+        width: calc(10 / 768 * 100vw);
+        height: calc(10 / 768 * 100vw);
+        margin-top: 110%;
+        margin-left: 3%;
+    }
+
+    .cottage__title{
+        width: calc(120 / 768 * 100vw);
+        height: calc(20 / 768 * 100vw);
+        margin-left: 65%;
+        margin-top: 115%;
+        font-size: calc(14 / 768 * 100vw);
+    }
+
+    .main__cottage-paragraf{
+        width: calc(260 / 768 * 100vw);
+        height: calc(50 / 768 * 100vw);
+        margin-top: 155%;
+        margin-left: -5%;
+        font-size: calc(15 / 768 * 100vw);
+    }
+
+    .main__corporate-img{
+        width: calc(10 / 768 * 100vw);
+        height: calc(10 / 768 * 100vw);
+        margin-top: 234%;
+        margin-left: -276%;
+    }
+
+    .corporate__title{
+        width: calc(120 / 768 * 100vw);
+        height: calc(20 / 768 * 100vw);
+        margin-top: 250%;
+        margin-left: 63%;
+        font-size: calc(14 / 768 * 100vw);
+    }
+
+    .main__corporate-paragraf{
+        width: calc(260 / 768 * 100vw);
+        height: calc(50 / 768 * 100vw);
+        margin-top: 281%;
+        margin-left: -283%;
+        font-size: calc(15 / 768 * 100vw);
+    }
+
+    .main__header-kompani{
+        margin-top: 50%;
+        margin-left: 31%;
+        font-size: 24px;
+    }
+
+    .main__links{
+        width: calc(602 / 768 * 100vw);
+        height: calc(50 / 768 * 100vw);
+        margin-left: 5%;
+        font-size: 18px;
+    }
+
+
+    .main__pictures{
+        width: calc(600 / 768 * 100vw);
+        height: calc(50 / 768 * 100vw);
+        margin-left: -2%;
+    }
+
+
+    .main__window-house{
+        width: calc(100 / 768 * 100vw);
+        height: calc(90 / 768 * 100vw);
+    }
+
+
+    .main__text{
+        width: calc(130px + 100px);
+        height: calc(16 / 768 * 100vw);
+        margin-left: 15%;
+        margin-top: 25%;
+    }
+
+    .main__men-window{
+        width: calc(100 / 768 * 100vw);
+        height: calc(461 / 768 * 100vw);
+        margin-left: 55%;
+    }
+    
+    .main__quality{
+        margin-left: -1%;
+    }
+
+
+    .main__professionalism-img{
+        width: calc(40 / 768 * 100vw);
+        height: calc(40 / 768 * 100vw);
+        margin-left: -10%;
+    }
+
+    .main__professionalism-title{
+        margin-top: -33%;
+        margin-left: 43%;
+    }
+
+    .main__professionalism-paragraf{
+        margin-top: -6%;
+        margin-left: 43%;
+    }
+
+    .main__pricing-img{
+        margin-left: -5%;
+    }
+
+    .main__pricing-title{
+        margin-left: 45%;
+    }
+
+    .main__pricing-paragraf{
+        margin-left: 46%;
+    }
+
+    .main__mobility-img{
+        margin-left: -6%;
+    }
+
+    .main__mobility-title{
+        margin-left: 50%;
+        margin-top: -74%;
+    }
+
+    .main__mobility-paragraf{
+        margin-left: 50%;
+        margin-top: -2%;
+        width: calc(160 / 768 * 100vw);
+        height: calc(100 / 768 * 100vw);
+    }
+
+    .main__loyalty-img{
+        margin-left: 17%;
+    }
+
+    .main__loyalty-title{
+        margin-top: -67%;
+        margin-left: 76%;
+    }
+
+    .main__loyalty-paragraf{
+        margin-left: 79%;
+        width: calc(160 / 768 * 100vw);
+        height: calc(100 / 768 * 100vw);
+    }
+
+    .main__speed-img{
+        margin-left: -230%;
+        margin-top: 80%;
+    }
+
+    .main__speed-title{
+        margin-left: -175%;
+        margin-top: -51%;
+    }
+
+    .main__speed-paragraf{
+        margin-left: -177%;
+        width: calc(200 / 768 * 100vw);
+        height: calc(100 / 768 * 100vw);
+    }
+
+    .main__service-img{
+        margin-top: -110%;
+        margin-left: 140%;
+    }
+
+    .main__service-title{
+        margin-left: 182%;
+        margin-top: -62%;
+    }
+
+    .main__service-paragraf{
+        margin-left: 182%;
+        margin-top: 10%;
+        width: calc(200 / 768 * 100vw);
+        height: calc(100 / 768 * 100vw);
+    }
+
+    .button__request{
+        margin-left: 27%;
+    }
+
+
+    .main__portfolio{
+        width: calc(698 / 768 * 100vw);
+        height: calc(310 / 768 * 100vw);
+        margin-left: -13%;
+    }
+
+    .main__portfolio-title{
+        margin-left: 40%;
+    }
+
+    .portfolio__title{
+        margin-left: 50%;
+        font-size: 24px;
+        margin-top: 30%;
+    }
+
+    .main__picture-window{
+        width: calc(154 / 768 * 100vw);
+        height: calc(154 / 768 * 100vw);
+        margin-left: -35%;
+        margin-top: 15%;
+    }
+
+    .main__picture-window-forest{
         display: none;
     }
 }
